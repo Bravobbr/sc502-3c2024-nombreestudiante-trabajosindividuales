@@ -1,0 +1,57 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #ffffff; /* Gris claro */
+    color: #000000; /* Negro */
+}
+
+
+.navbar ul {
+    display: flex;
+    justify-content: space-around;
+    background-color: #003e81; /* Azul Salud */
+    border-radius: 8px;
+    
+    padding: 1rem;
+    list-style: none;
+}
+
+.navbar a {
+    color: white;
+    text-decoration: none;
+}
+
+.navbar a:hover {
+    color: #add8e6; 
+}
+
+
+.comentarios-seccion {
+    display: flex;
+    gap: 20px;
+    padding: 20px;
+}
+
+.tarjeta-paciente {
+    flex: 1;
+    border: 1px solid #004a99;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.3);
+    padding: 15px; 
+    margin: 10px;  
+    background-color: white;
+    border-radius: 8px;
+}
+
+/* Botón con hover [10] */
+.btn-cita {
+    background-color: #004a99;
+    color: white;
+    padding: 10px 20px;
+    border: 1px solid #11036d;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.3);
+    border-radius: 8px;
+    cursor: pointer;
+}
+
+.btn-cita:hover {
+    background-color: #003366;
+}
